@@ -32,6 +32,6 @@ blacklist = [
 
 for t in webpage_body:
 	if t.parent.name not in blacklist:
-		output += '{} '.format(t)
+		output += '{} '.format(t) 
 
 print(output)
